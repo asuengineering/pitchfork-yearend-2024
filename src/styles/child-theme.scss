@@ -6,6 +6,46 @@
 @import "../src/unity-bootstrap-theme/_custom-asu-variables.scss";
 @import 'media-queries';
 
-body {
-	background-color: $uds-color-base-gray-4;
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Great+Vibes&family=Pompiere&display=swap');
+
+/*--------------------------------------------------------------
+# Boxed template
+--------------------------------------------------------------*/
+
+.page-template .boxed {
+
+	background: url('../../img/christmas-seamless-pattern-black-background-with-white-outline_288990-1372.jpg') center repeat;
+	padding: 6rem 0 4rem 0;
+
+	.page-wrap {
+		background-color: $uds-color-base-white;
+		border: 10px solid rgb(158, 30, 30);
+		padding: 2rem;
+	}
+
+	.separated-by-dots {
+		.wp-block-column:first-child {
+			border-right: 2px dotted #ffc627;
+			padding-right: 2rem;
+		}
+	}
+
+	.poetry>p {
+		font-family: "Pompiere", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 24px;
+	}
+
+	.wp-block-code code {
+		background-color: $uds-color-base-gray-1;
+		border-radius: 10px;
+		padding: 2rem;
+	}
+
+	// .berkshire-swash-regular {
+	// 	font-family: "Berkshire Swash", serif;
+	// 	font-weight: 400;
+	// 	font-style: normal;
+	// }
 }

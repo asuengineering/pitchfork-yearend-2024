@@ -7,8 +7,6 @@ var __webpack_exports__ = {};
  * Starter JS file for child theme.
  * wp.domReady is a useful JS hook.
 */
-
-wp.domReady(() => {});
 /******/ })()
 ;
 //# sourceMappingURL=child-theme.js.map
