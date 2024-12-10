@@ -1,8 +1,8 @@
 {
-  "name": "pitchfork-child-theme",
-  "version": "0.1.0",
-  "description": "A starter child-theme for Pitchfork from ASU Engineering",
-  "repository": "asuengineering/pitchfork-child",
+  "name": "pitchfork-yearend-2024",
+  "version": "0.2.0",
+  "description": "A child theme for Pitchfork for an annual year-in-review landing page",
+  "repository": "asuengineering/pitchfork-yearend-2024",
   "main": ".eslintrc.js",
   "author": "ASUEngineering",
   "license": "MIT",
