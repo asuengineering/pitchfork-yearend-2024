@@ -6,7 +6,7 @@
 @import "../src/unity-bootstrap-theme/_custom-asu-variables.scss";
 @import 'media-queries';
 
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Great+Vibes&family=Pompiere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
 
 /*--------------------------------------------------------------
 # Boxed template
@@ -14,7 +14,7 @@
 
 .page-template .boxed {
 
-	background: url('../../img/christmas-seamless-pattern-black-background-with-white-outline_288990-1372.jpg') center repeat;
+	background: url('../../img/Year_in_Review_background_pattern_500x400_2024_v1-toWEB.png') center repeat;
 	padding: 6rem 0 4rem 0;
 
 	.page-wrap {
@@ -48,4 +48,21 @@
 	// 	font-weight: 400;
 	// 	font-style: normal;
 	// }
+}
+
+// Mobile fixes
+
+@include media-breakpoint-down(lg) {
+
+	.wp-block-group.story-thumb {
+		flex-direction: column;
+
+		figure img {
+			min-width: 300px !important
+		}
+	}
+
+	.uds-image-overlap.fix-content-wrap .acf-innerblocks-container {
+		padding: 0;
+	}
 }
