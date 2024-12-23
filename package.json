@@ -1,6 +1,6 @@
 {
   "name": "pitchfork-yearend-2024",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A child theme for Pitchfork for an annual year-in-review landing page",
   "repository": "asuengineering/pitchfork-yearend-2024",
   "main": ".eslintrc.js",
